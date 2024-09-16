@@ -136,6 +136,8 @@ It will run the app in the following path as below
 
 http://localhost:5173/
 
+![image](https://github.com/user-attachments/assets/cd650420-3123-457a-96d6-fdc6dcd1c556)
+
 
 
 # Testing the App:
@@ -146,6 +148,9 @@ In order to do a test run, open your CLI and run the following command from the 
 
 
 **yarn test**
+
+![image](https://github.com/user-attachments/assets/802f429d-8487-4b2a-a9f0-f5784cdb4e58)
+
 
 This should run all tests and give you the list of the test cases passed and failed accordingly. 
 

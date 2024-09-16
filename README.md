@@ -169,7 +169,7 @@ b) Add Items to the cart
 c) Remove items from the cart
 d) Dynamically modify the count of the cart as when the items are added/removed showing the real-time updates
 e) Display the total price of the items in the cart
-f) Search the store to fetch the phone related items using the Search icon
+f) Search the store to fetch the phone related items using the Search icon for which we have a separate Search icon on the Header which only searches phone related items and display on the Search screen. This can be extended later to search for any category of items.
 g) Adding/Removing multiple number of same items to the cart at once
 h) Adjust the quantity of each product in the cart.
 
@@ -193,6 +193,25 @@ error message when the product list fails to load.
 10. Implementation of GitHub Actions for promoting the promoting your code to production.
 react-testing-library / Vitest – for testing the app, we'll use react-testing-library and Vitest.
 
-11. Header Shrinking option on the Home Screen and Search screen which helps us to seamlessly scroll down the list of products with the shrinking effect of the header
+11. Header Shrinking option on the Home Screen and Search screen which helps us to seamlessly scroll down the list of products with the shrinking effect of the header.
+
+
+# Scope for Improvement:
+
+1. We can also use Fake Store API to fetch the products as an improvement to this project.
+2. Right now using the Search icon on the Header, we can only search for Phone related items from the Product list. This can be extended to search for any category of items using the API.
+3. Can automate more Unit Tests using Jest and Enzyme as an improvement to the current set of test cases available in this project.
+4. Can do extensive error handling for each of the APIs as it is done for only one API for now.
+
+
+
+# Challenges Faced:
+
+1. Faced challenges while resolving the issues with Unit Test cases based on React Testing Library which I was able to work on resolve them.
+2. Faced challenges while creating a Search Widget and making sure that it has to provide me only Phone related items, was able to implement it and display it accordingly.
+3. Faced challenges while adjusting the UI dimensions for some of the screens and have resolve them.
+
+
+
 
 

@@ -132,6 +132,11 @@ In order to run the application and launch the Home Screen, run the following co
 
 **yarn dev**
 
+It will run the app in the following path as below
+
+http://localhost:5173/
+
+
 
 # Testing the App:
 
